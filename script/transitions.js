@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Seleciona todas as seções que para animar.
+    // Seleciona as seções para animar.
     const productSections = document.querySelector('#product');
     const aboutSections = document.querySelector('#about');
     const ctatSections = document.querySelector('#cta');
+    const footerSections = document.querySelector('footer');
 
     // Configura o Intersection Observer.
     let observer = new IntersectionObserver(function (entries) {
@@ -19,4 +20,5 @@ document.addEventListener('DOMContentLoaded', function () {
     observer.observe(productSections);
     observer.observe(aboutSections);
     observer.observe(ctatSections);
+    observer.observe(footerSections);
 });
