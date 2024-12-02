@@ -167,6 +167,16 @@ header p {
     cursor: pointer;
 }
 
+#cta a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: monospace;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -174,6 +184,8 @@ footer {
     opacity: 0;
     transition: transform 1s ease-out, opacity 1s ease-out;
 }
+
+
 
 footer.visible {
     opacity: 1;
