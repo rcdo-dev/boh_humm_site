@@ -71,7 +71,7 @@
                 um dos primeiros a utilizar o app do motoboy!
             </p>
         </section>
-        <form action="" method="post">
+        <form action="src/controller/processForm.php" method="post">
             <label>
                 <input type="text" name="name" placeholder="Nome" required>
             </label>
@@ -79,9 +79,9 @@
                 <input type="text" name="email" placeholder="E-mail" required>
             </label>
             <label>
-                <input type="text" name="telefone" placeholder="Telefone" required>
+                <input type="text" name="telephone" placeholder="Telefone" required>
             </label>
-            <button type="submit">Entrar na lista</button>
+            <button type="submit" name = "enterListButton">Entrar na lista</button>
         </form>
     </section>
 
