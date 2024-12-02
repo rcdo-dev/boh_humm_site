@@ -170,6 +170,7 @@ header p {
 footer {
     display: flex;
     justify-content: center;
+    font-family: monospace;
     opacity: 0;
     transition: transform 1s ease-out, opacity 1s ease-out;
 }
