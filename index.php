@@ -83,7 +83,9 @@
             <input type="text" name="telephone" placeholder="Telefone" required>
         </label>
         <button type="submit" name="enterListButton">Entrar na lista</button>
-        <a href="/">admin</a>
+        <label>
+            <a href="login_admin.php">admin</a>
+        </label>
     </form>
 </section>
 
