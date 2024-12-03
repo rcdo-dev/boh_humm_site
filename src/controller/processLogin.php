@@ -15,7 +15,7 @@ if (isset($_POST['loginAdmin'])) {
         $adminDAO = new AdiminDAO();
 
         if ($adminDAO->loginAdmin($admin->getName(), $admin->getPassword())) {
-            echo "<p>Logado</p>";
+            header("Location: ../../leads.php");
         } else {
             echo "<p>Erro ao logar.</p>";
         }

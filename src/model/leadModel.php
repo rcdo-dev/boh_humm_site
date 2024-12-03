@@ -3,6 +3,7 @@
 namespace model;
 class LeadModel
 {
+    private $id;
     private $name;
     private $email;
     private $telephone;
@@ -12,6 +13,16 @@ class LeadModel
         $this->name = $name;
         $this->email = $email;
         $this->telephone = $telephone;
+    }
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function setId($id): void
+    {
+        $this->id = $id;
     }
 
     public function getName()
